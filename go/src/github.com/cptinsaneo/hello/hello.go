@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/cptinsaneo/newmath"
+)
 
 func main() {
-	fmt.Printf("Hello suckas..\n")
+	fmt.Printf("Hello suckas.  Sqrt(2) = %v\n", newmath.Sqrt(2))
 }
